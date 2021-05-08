@@ -37,6 +37,8 @@ const Modal = () => {
             <button type="submit" className="button">
               <span>Start chatting</span>
             </button>
+            <span> User 1 -> name : hiren   password : hiren </span>
+            <span> User 2 -> name : mamta   password : mamta </span>
           </div>
         </form>
         <h1>{error}</h1>
