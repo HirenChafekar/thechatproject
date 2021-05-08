@@ -31,7 +31,7 @@ const Modal = () => {
       <div className="form">
         <h1 className="title">Chat Application</h1>
         <h3 className="title">User1: hiren   Password: hiren </h3>
-        <h3 className="title">User2: mamta   Password: mamta </h3>
+        <h3 className="title"><br/>User2: mamta   Password: mamta </h3>
         <form onSubmit={handleSubmit}>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username" required />
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password" required />
